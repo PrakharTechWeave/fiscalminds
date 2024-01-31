@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <nav>
+        <img
+          src="https://demo.exptheme.com/taxadvisor/wp-content/themes/wp-taxadvisor/assets/images/logo.png"
+          alt=""
+        />
+        <div class="nav-right">
+          <a class="nav1" href="#contactus">Contact Us</a>
+          <a class="nav2" href="#main"><img src="linkedin-fill.png" alt="" /></a>
+        </div>
+      </nav>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swipertext">
+                <h1>Choosing a <br>Financial Adviser</h1>
+                <h6>I will help you take control of the things that matter most in your life</h6>
+            <a href="#contactus">Contact Us</a>
+            </div>
+            <img src="swiper 1.jpg" alt="" />
+        </div>
+          <div class="swiper-slide"><img src="swiper 2.jpg" alt="" /></div>
+          <div class="swiper-slide"><img src="swiper 3.jpg" alt="" /></div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="elems">
+        <div class="elem">
+          <img src="financial planar.svg" alt="" />
+          <h3>Financial Planar</h3>
+          <h5>
+            We will work through the process to identify your needs, goals and
+            strategy, and put your plan in
+          </h5>
+        </div>
+        <div class="elem">
+          <img src="incometax.png" alt="" />
+          <h3>Income Tax</h3>
+          <h5>
+            File your Income Tax return with Tax Experts.Claim your tax benefits
+            under Section 80C and other applicable sections
+          </h5>
+        </div>
+        <div class="elem">
+          <img src="crypto.png" alt="" />
+          <h3>Crypto</h3>
+          <h5>
+            Capital gains earned through crypto investing - (Upto 200
+            transactions : Including trading activities like intraday, leverage
+            trading, derivative trading, Arbitrage etc)
+          </h5>
+        </div>
+      </div>
+      <div class="about">
+        <div class="aboutme">
+          <img src="me.jpg" alt="" />
+          <h2>Stephen Hill</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+            tenetur excepturi suscipit dolores incidunt temporibus commodi sed
+            inventore! Eum qui incidunt hic nemo reprehenderit est quis magnam
+            ipsum accusamus quidem!
+          </p>
+        </div>
+        <div id="contactus" class="con-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <div class="contact-title">
+                    <h1>For Expert Consultancy</h1>
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="538069fb-e457-4dc5-aed8-bab1a8e96556">
+                <input type="text" name="name" placeholder="Name" class="contactinput" required>
+                <input type="email" name="email" placeholder="Your Email Address" class="contactinput" required>
+                <input  name="phone" placeholder="Your Mobile Number" minlength="10" maxlength="10" class="contactinput" required>
+                <textarea name="message" placeholder="Your Query..." class="contactinput" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+      </div>
+
+      <footer>
+        
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
